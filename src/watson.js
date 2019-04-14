@@ -11,7 +11,7 @@ const visualRecognition = new VisualRecognitionV3({
 
 export const classifyImage = (imageURL, res) => {
   const classifier = ['Hotdogorlegs_510058635'];
-  const threshold = 0.6;
+  const threshold = 0;
 
   const params = {
     url: imageURL,
